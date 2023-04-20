@@ -1,23 +1,15 @@
-// C Program to Find ASCII Value of a Character.
-
 #include<stdio.h>
 
-void AsciValue(char iCharValue){
+int main()
+{
+    int i, j, ans;
 
-   printf("ASCII value of %c = %d", iCharValue, iCharValue);
-}
+    i = 10;
+    j = 11;
 
-int main(){
-     
-   char iChar;
+    ans = i + j;
 
-   printf("Enter a character: ");
-   scanf("%c", &iChar); 
-   
-   // %d displays the integer value of a character
-   // %c displays the actual character
-   
-   AsciValue(iChar);
+    printf("Addition is : %d\n",ans);
     
-   return 0;
+    return 0;
 }
